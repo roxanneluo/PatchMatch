@@ -25,6 +25,12 @@ To run the project you need to install Opencv library and link it to your projec
 Opencv can be download it here 
 http://opencv.org/downloads.html
 
+To compile with opencv, add to `~/.bash_profile` (mac)
+```
+export CPATH="$OPENCV_INCLUDE_DIR:$CPATH"
+export LIBRARY_PATH=$OPENCV_LIBRARY_DIR:$LIBRARY_PATH
+```
+
 How to use 
 ===========
 

@@ -1,4 +1,3 @@
-=====================================
 README:   Inpainting based PatchMatch    
 =====================================
 
@@ -18,8 +17,7 @@ The algorithm is presented in the following paper
 
 Copyright (c) 2010-2011   
 
-Requirements 
-============
+# Requirements 
 
 To run the project you need to install Opencv library and link it to your project. 
 Opencv can be download it here 
@@ -31,9 +29,15 @@ export CPATH="$OPENCV_INCLUDE_DIR:$CPATH"
 export LIBRARY_PATH=$OPENCV_LIBRARY_DIR:$LIBRARY_PATH
 ```
 
-How to use 
-===========
+# How to use 
+## Demo
+To run demo,
+```
+make
+build/patchmatch.out
+```
 
+## Change Image Path
 The project accepts two images 
 1- The original image 
 2- The pruned image you can delete a part of interest in the image. The algorithm will patch the remaining image to give a natural result. 

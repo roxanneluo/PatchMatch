@@ -45,8 +45,8 @@ int main(int argc, char** argv)
 	double height,width;
 
 	//Put your file name here
-	char fileNameInput[150] = "C:\\Users\\PVHP9868\\Desktop\\PATCH_MATCH_APPLICATION_CONSOLE\\image_files\\forest\\forest.bmp";
-	char fileNameMasked[150] = "C:\\Users\\PVHP9868\\Desktop\\PATCH_MATCH_APPLICATION_CONSOLE\\image_files\\forest\\forest_pruned.bmp";
+	char fileNameInput[150] = "image_files/forest/forest.bmp";
+	char fileNameMasked[150] = "image_files/forest/forest_pruned.bmp";
 
 	char fileNameOutput[150];
 	char fileNameOutputMasked[150];

@@ -11,7 +11,7 @@ LD_FLAGS=$(addprefix -l,$(LIBS))
 
 main:
 	mkdir -p $(BUILD_DIR) 
-	g++ $(SRCS) $(INC_FLAGS) $(LD_FLAGS)  -o $(BUILD_DIR)/patchmatch.out 
+	g++ $(SRCS) $(INC_FLAGS) $(LD_FLAGS) -O3 -o $(BUILD_DIR)/patchmatch.out 
 
 clean:
 	rm -rf $(BUILD_DIR)
